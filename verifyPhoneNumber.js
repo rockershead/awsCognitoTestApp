@@ -13,7 +13,7 @@ pincode="687804"
 
 
 var userData = {
-    Username : '+6591414573',
+    Username : 'your number',
     Pool : userPool2
 };
 var cognitoUser = new AmazonCognitoIdentity.CognitoUser(userData);
