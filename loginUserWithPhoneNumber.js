@@ -13,12 +13,12 @@ pincode='124932'
 
 
 var authenticationDetails = new AmazonCognitoIdentity.AuthenticationDetails({
-    Username : '+6591414573',
-    Password:'mzbt70311'
+    Username : 'your number',
+    Password:'your password'
 });
 
 var userData = {
-    Username : '+6591414573',
+    Username : 'your number',
     Pool : userPool2
 };
 var cognitoUser = new AmazonCognitoIdentity.CognitoUser(userData);
